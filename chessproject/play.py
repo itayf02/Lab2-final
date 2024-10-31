@@ -24,6 +24,7 @@ from tqdm import tqdm
 import io
 import random
 import math
+import chess.svg
 
 def chess_position_to_graph(board):
     G = nx.DiGraph()  # Directed graph
